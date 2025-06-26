@@ -1,0 +1,5 @@
+def emotive_feedback(state, input_symbol):
+    valence = analyze_tension(state, input_symbol)
+    if valence > THRESHOLD_COSMIC:
+        return initiate_empathic_adjustment()
+    return stabilize_phase()
